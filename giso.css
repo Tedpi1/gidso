@@ -1,0 +1,117 @@
+body{
+    background-color: gray;
+    padding: 0%;
+    border-right:0%;
+    margin: 0%;
+    display: inline;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    border: 0;
+    padding-left: 0%;
+    margin: 0;
+  padding-top: 2pc;
+
+
+}
+.container ul{
+    text-decoration: none;
+    list-style: none;
+    align-items: left;
+    display: flex;
+    flex-direction: row;
+    padding-left: 35%;
+    align-items: flex-end;
+}
+.container li{
+    border: 0%;
+    padding-right: 20%;
+    padding-bottom: 15%;
+   
+}
+.container li a{
+    padding: 0%;
+    text-align:center ;
+    text-decoration: none;
+    padding-right: 20%;
+    color: #000;
+}
+li a :hover{
+    font-size: smaller;
+    color: chartreuse;
+
+}
+ .logo{
+    background-image: url('logo.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    height: 10%;
+    margin-top: 3%;
+    margin-left: 70%;
+    margin-bottom: 2%;
+    width: 39%;
+    padding-left: 20%;
+    padding-bottom: 34;
+}
+.Maroon{
+    display: flex;
+    flex-direction: row;
+    padding-right:0%;
+    margin-right: 0%;
+    background-color: maroon;
+}
+.Column{
+    display: flex;
+    flex-direction: column;
+    margin-top:0%;
+}
+.Row{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0%;
+    padding: 0%;
+}
+.course{
+    align-items: left;
+    margin-right: 80%;
+    margin-top: 0;
+    padding-top: 0%;
+
+}
+.comp{
+    background-image: url('pic.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+    position: absolute;
+    height: 43.5%;
+    margin-top: 0%;
+    margin-left: 70%;
+    margin-bottom: 2%;
+    width: 60%;
+    padding-left: 20%;
+    padding-bottom: 34;
+}
+.White{
+    align-content: left;
+    margin-right: 0%;
+    margin-left: 0%;
+    margin-top: 2%;
+    padding-right: 0%;
+    background-color: aliceblue;
+}
+.welcome h1{
+    color:aqua;
+    font-family: georgia;
+    font-style: oblique;
+}
+.welcome h1:hover{
+    color: blueviolet;
+    font-family: impact;
+
+}
+.welcome{
+    text-align: center;
+    
+}

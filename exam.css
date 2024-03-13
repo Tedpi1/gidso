@@ -1,0 +1,77 @@
+body{
+    background-color: #fdfdfd;
+   padding: 0%;
+   border: 0ch;
+   margin: 0%;
+}
+.youth{
+    background-color: #fff8f8;
+    background-size: contain;
+    border-style: groove;
+    border-radius: 2px;
+    padding: 0%;
+}
+.youth h1{
+    color: rgb(255, 253, 253);
+    font-family: arial;
+    background-color: #030303;
+    height: 7%;
+    text-align: center;
+    margin: 0;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+
+}
+.container ul{
+    background-color: #030303;
+    display: block;
+    padding-top: 50%;
+    padding-bottom: 450%;
+    padding-right: 100%;  
+    margin: 0%;
+   
+    
+}
+.container ul li{
+    list-style: none;
+    margin-bottom: 10%;
+    padding-bottom: 40px;
+    
+}
+.container li a{
+    text-decoration: none;
+    color: white;
+}
+.website{
+    margin-left: 16%;
+
+}
+.website h2{
+    text-align: center;
+
+}
+form input{
+    
+    margin: 10px;
+    border:0;
+    border-bottom: 2px;
+    border-left: 2px;
+    border-style: groove;
+    border-color: aqua;
+}
+.form{
+    border: 0ch;
+    margin: 0%;
+    border-top: 2px;
+    border-style: groove;
+    padding-top: 20px;
+    border-radius: 20px;
+    
+}

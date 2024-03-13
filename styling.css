@@ -1,0 +1,170 @@
+body{
+    margin: 0%;
+}
+.top{
+    position: absolute;
+    height: 70%;
+    padding: 0%;
+    margin: 0%;
+    width: 20%;
+}
+.logo{
+    opacity: 0.3;
+    position: absolute;
+    padding-top: 27%;
+    padding-left: 20%;
+    padding-bottom: 10%;
+    height: 73%;
+    width: 100%;
+    z-index: 1;
+
+}
+.pic{
+    
+    background-image: url('bus.jpg')
+
+}
+.img{
+    padding: 0%;
+    margin: 0;
+}
+.HeadingStyle{
+    padding-left: 10%;
+    margin: 0%;
+}
+.giso{
+    background-image: url('comp.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    color: green;
+    font-family:sans-serif;
+    text-decoration: underline;
+    text-align: center;
+    font-size: x-large;
+    padding: 0;
+    margin: 0%;
+}
+.giso:hover{
+    color: yellow;
+} 
+.registration{
+    width: 70%;
+    background-image: url('op.jpg');
+    background-repeat: no-repeat;
+    background-size: calc(55vw - 25px);
+    
+}  
+.registration h2{
+    color: rgb(0, 89, 255);
+    font-family: inherit;
+    text-decoration: underline;
+    text-align: center;
+    padding: 0%;
+}
+.registration form{
+    display: flex;
+    flex-direction: row;
+}
+.box{
+
+}
+.adm{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.name{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.date{
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+.studies{
+    padding-left: 30%;
+}
+.module{
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+.course{
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+.duration{
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+.details h2{
+    color: rgb(0, 89, 255);
+    font-family: inherit;
+    text-decoration: underline;
+    text-align: center;
+    padding: 0%;
+}
+
+.address{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+}
+.position{
+    padding-right: 30%;
+}
+.contacts{
+    color: rgb(0, 89, 255);
+    font-family: inherit;
+    text-decoration: underline;
+    text-align: center;
+    padding: 0%;
+
+}
+.kin{
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+}
+.kname{
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+.tell{
+    padding-bottom: 10px;
+}
+.name{
+    padding-top: 0px;
+    padding-bottom: 10px
+}
+.location{
+    padding-left: 30%;
+}
+.family{
+    padding: 0;
+    border: 0;
+}
+.timings h2{
+    color: rgb(0, 89, 255);
+    font-family: inherit;
+    text-decoration: underline;
+    text-align: center;
+    padding: 0%; 
+}
+.about h2{
+    color: rgb(0, 89, 255);
+    font-family: inherit;
+    text-decoration: underline;
+    text-align: center;
+    padding: 0%; 
+}
+.Submit{
+    text-align: center;
+}
+.Submit form{
+    
+    background-color: blue;
+    color: blue;
+    align-items: center;
+}
